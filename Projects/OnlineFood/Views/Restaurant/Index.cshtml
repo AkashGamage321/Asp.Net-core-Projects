@@ -1,0 +1,35 @@
+@model IEnumerable<OnlineFood.Models.RestaurantModel>
+
+@{
+    ViewData["Title"] = "Restaurants";
+}
+
+<h1>Restaurants</h1>
+
+<p>
+    <a asp-action="Create">Create New Restaurant</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Location</th>
+            <th>Cuisine</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Location</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.RestaurantId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.RestaurantId">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{0967BC2B-390E-4802-A88D-74AECAFCEE67}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineFood", "Projects\OnlineFood\OnlineFood.csproj", "{C813AE49-4EEB-4406-AC3E-DF961B461A72}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingSystem", "Projects\BookingSystem\BookingSystem.csproj", "{87A62DA9-EB45-47DB-9C45-D2BF1CE7AC2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C813AE49-4EEB-4406-AC3E-DF961B461A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C813AE49-4EEB-4406-AC3E-DF961B461A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C813AE49-4EEB-4406-AC3E-DF961B461A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C813AE49-4EEB-4406-AC3E-DF961B461A72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87A62DA9-EB45-47DB-9C45-D2BF1CE7AC2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87A62DA9-EB45-47DB-9C45-D2BF1CE7AC2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87A62DA9-EB45-47DB-9C45-D2BF1CE7AC2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87A62DA9-EB45-47DB-9C45-D2BF1CE7AC2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C813AE49-4EEB-4406-AC3E-DF961B461A72} = {0967BC2B-390E-4802-A88D-74AECAFCEE67}
+		{87A62DA9-EB45-47DB-9C45-D2BF1CE7AC2C} = {0967BC2B-390E-4802-A88D-74AECAFCEE67}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0D811A3-3884-4DA7-9005-6D313ABB3F52}
+	EndGlobalSection
+EndGlobal
