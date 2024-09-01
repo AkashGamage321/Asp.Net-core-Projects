@@ -55,7 +55,7 @@ namespace BookingSystem.Controllers
         {
             if(ModelState.IsValid)
             {
-                var result = await _signInManager.PasswordSignInAsync(model.Username, model.Password, model.RememberMe, lockoutOnFailure: false);
+                var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
                 if(result.Succeeded)
                 {
                     return RedirectToAction("Index" , "Home");

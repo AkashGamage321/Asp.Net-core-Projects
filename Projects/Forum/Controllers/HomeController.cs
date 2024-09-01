@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using BookingSystem.Models;
+using Forum.Models;
 
-namespace BookingSystem.Controllers;
+namespace Forum.Controllers;
 
 public class HomeController : Controller
 {
@@ -19,10 +19,6 @@ public class HomeController : Controller
     }
 
     public IActionResult Privacy()
-    {
-        return View();
-    }
-    public IActionResult About()
     {
         return View();
     }
