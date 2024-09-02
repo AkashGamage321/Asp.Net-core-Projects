@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{C351305F-2437-4880-90BD-9A05B59A1E84}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{6DFC0FAE-C0F0-4A30-A021-EE41F434315C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forum", "Projects\Forum\Forum.csproj", "{79ECFA0D-8335-4376-BD3D-17BF855409BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forum", "Projects\Forum\Forum.csproj", "{BED1641F-7D18-4FD7-BD6F-9C7C63A1BC1E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineFood", "Projects\OnlineFood\OnlineFood.csproj", "{C2D88EC1-75A6-4CFE-A7FE-D00A4FB31801}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineFood", "Projects\OnlineFood\OnlineFood.csproj", "{CDFEF401-891F-4EB6-BCAF-B0A3EDB2405E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingSystem", "Projects\BookingSystem\BookingSystem.csproj", "{449D17AD-7615-4506-9CFD-D8E52A7D9A72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingSystem", "Projects\BookingSystem\BookingSystem.csproj", "{378678FE-F837-4D1F-BA9F-39A8FBE42839}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,26 +17,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{79ECFA0D-8335-4376-BD3D-17BF855409BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{79ECFA0D-8335-4376-BD3D-17BF855409BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{79ECFA0D-8335-4376-BD3D-17BF855409BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{79ECFA0D-8335-4376-BD3D-17BF855409BA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C2D88EC1-75A6-4CFE-A7FE-D00A4FB31801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C2D88EC1-75A6-4CFE-A7FE-D00A4FB31801}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C2D88EC1-75A6-4CFE-A7FE-D00A4FB31801}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C2D88EC1-75A6-4CFE-A7FE-D00A4FB31801}.Release|Any CPU.Build.0 = Release|Any CPU
-		{449D17AD-7615-4506-9CFD-D8E52A7D9A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{449D17AD-7615-4506-9CFD-D8E52A7D9A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{449D17AD-7615-4506-9CFD-D8E52A7D9A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{449D17AD-7615-4506-9CFD-D8E52A7D9A72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BED1641F-7D18-4FD7-BD6F-9C7C63A1BC1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BED1641F-7D18-4FD7-BD6F-9C7C63A1BC1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BED1641F-7D18-4FD7-BD6F-9C7C63A1BC1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BED1641F-7D18-4FD7-BD6F-9C7C63A1BC1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDFEF401-891F-4EB6-BCAF-B0A3EDB2405E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDFEF401-891F-4EB6-BCAF-B0A3EDB2405E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDFEF401-891F-4EB6-BCAF-B0A3EDB2405E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDFEF401-891F-4EB6-BCAF-B0A3EDB2405E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{378678FE-F837-4D1F-BA9F-39A8FBE42839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{378678FE-F837-4D1F-BA9F-39A8FBE42839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{378678FE-F837-4D1F-BA9F-39A8FBE42839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{378678FE-F837-4D1F-BA9F-39A8FBE42839}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{79ECFA0D-8335-4376-BD3D-17BF855409BA} = {C351305F-2437-4880-90BD-9A05B59A1E84}
-		{C2D88EC1-75A6-4CFE-A7FE-D00A4FB31801} = {C351305F-2437-4880-90BD-9A05B59A1E84}
-		{449D17AD-7615-4506-9CFD-D8E52A7D9A72} = {C351305F-2437-4880-90BD-9A05B59A1E84}
+		{BED1641F-7D18-4FD7-BD6F-9C7C63A1BC1E} = {6DFC0FAE-C0F0-4A30-A021-EE41F434315C}
+		{CDFEF401-891F-4EB6-BCAF-B0A3EDB2405E} = {6DFC0FAE-C0F0-4A30-A021-EE41F434315C}
+		{378678FE-F837-4D1F-BA9F-39A8FBE42839} = {6DFC0FAE-C0F0-4A30-A021-EE41F434315C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E0D811A3-3884-4DA7-9005-6D313ABB3F52}

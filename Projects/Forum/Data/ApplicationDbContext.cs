@@ -21,6 +21,8 @@ namespace Forum.Data
         public DbSet<CategoryModel> Categories { get; set; }
         public DbSet<UpvoteModel> Upvotes { get; set; }
         public DbSet<AdminModel> Admins { get; set ;}
+        public IEnumerable<object> UserRoles { get; internal set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

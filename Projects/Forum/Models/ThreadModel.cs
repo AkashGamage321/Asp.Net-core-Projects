@@ -19,6 +19,7 @@ namespace Forum.Models
         public string Title { get;set; }
         public string Content { get;set; }
         public DateTime CreateDate { get; set; }
+        public int UpvoteCount { get; set; }
 
         public ICollection<PostModel> Posts { get; set; }
 
